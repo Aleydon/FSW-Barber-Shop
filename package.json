@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "fsw-barber-shop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@prisma/client": "5.19.1",
+    "@prisma/client": "latest",
     "clsx": "^2.1.1",
     "lucide-react": "^0.445.0",
     "next": "15.1.7",
@@ -61,7 +61,7 @@
     "lint-staged": "^16.1.0",
     "postcss": "^8",
     "prettier": "^3.3.3",
-    "prisma": "^5.19.1",
+    "prisma": "latest",
     "storybook": "^8.5.8",
     "tailwindcss": "^4.0.7",
     "ts-jest": "^29.2.5",
