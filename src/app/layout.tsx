@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Next 15',
-  description: 'Next 15 Template'
+  title: 'FSW Barber Shop',
+  description: 'FSW Barber Shop - SaaS system for barbers'
 };
 
 export default function RootLayout({
