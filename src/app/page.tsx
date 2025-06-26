@@ -1,11 +1,27 @@
+import { Search } from 'lucide-react';
+
+import { Header } from './_components/header';
 import { Button } from './_components/ui/button';
+import { Input } from './_components/ui/input';
 export default function Page() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-100">
-      <h2 className="bg-amber-300 text-3xl font-bold text-red-500">
-        Hello World
-      </h2>
-      <Button>Button</Button>
-    </div>
+    <>
+      <Header />
+      <div className="p-5">
+        <h2 className="text-xl font-bold">Olá, Miguel.</h2>
+        <p>Sexta, 2 de Fevereiro</p>
+
+        <div className="mt-6 flex items-center gap-2">
+          <Input className="rounded-xs" placeholder="Search" />
+          <Button
+            className="rounded-xl bg-[#8162FF] hover:bg-[#221C3D]"
+            variant="secondary"
+            size="icon"
+          >
+            <Search />
+          </Button>
+        </div>
+      </div>
+    </>
   );
 }
